@@ -1,6 +1,7 @@
 import { XIcon } from "@heroicons/react/solid";
 import React from "react";
 import Slide from "react-reveal/Slide";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 export default function Navbar() {
   return (
@@ -25,31 +26,47 @@ export default function Navbar() {
               </a>
             </div>
             <nav className="mx-auto text-gray-700 flex space-x-10 flex-wrap items-center text-base justify-center">
-              <a
-                href="#about"
-                className=" hover:text-red-450 transition  px-3 py-1    transform hover:scale-110 ease-in-out duration-500 "
+              <Link
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={10}
+                duration={500}
+                className=" cursor-pointer hover:text-red-450 transition  px-3 py-1    transform hover:scale-110 ease-in-out duration-500 "
               >
                 About
-              </a>
-              <a
-                href="#experience"
-                className=" hover:text-red-450 transition  px-3 py-1   transform hover:scale-110  ease-in-out duration-500 "
+              </Link>
+              <Link
+                to="experience"
+                spy={true}
+                smooth={true}
+                offset={10}
+                duration={500}
+                className="cursor-pointer  hover:text-red-450 transition  px-3 py-1    transform hover:scale-110 ease-in-out duration-500 "
               >
                 Experience
-              </a>
-              <a
-                href="#projects"
-                className=" hover:text-red-450 transition  px-3 py-1    transform hover:scale-110  ease-in-out duration-500 "
+              </Link>
+              <Link
+                to="projects"
+                spy={true}
+                smooth={true}
+                offset={10}
+                duration={500}
+                className="cursor-pointer  hover:text-red-450 transition  px-3 py-1    transform hover:scale-110 ease-in-out duration-500 "
               >
                 Portfolio
-              </a>
+              </Link>
 
-              <a
-                href="#contact"
-                className="hover:text-red-450 transition  px-3 py-1   transform hover:scale-110  ease-in-out duration-500 "
+              <Link
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={10}
+                duration={500}
+                className="cursor-pointer hover:text-red-450 transition  px-3 py-1    transform hover:scale-110 ease-in-out duration-500 "
               >
                 Contact
-              </a>
+              </Link>
             </nav>
             <a
               href="./ZaraKhan-Resume.pdf"
