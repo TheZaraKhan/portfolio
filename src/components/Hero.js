@@ -16,7 +16,7 @@ export default function Hero() {
                   <h1 className="mb-8  md:mt-0 md:text-7xl text-4xl font-medium text-gray-700 ">
                     Hi, I'm Zara.
                   </h1>
-                  <h3 className="title-font text-gray-700 lg:text-5xl  leading-5 md:text-4xl text-3xl mb-4  ">
+                  <h3 className="title-font text-gray-700 lg:text-5xl  leading-10 md:text-4xl text-3xl mb-4  ">
                     A design-minded Developer <br></br>
                     focused on building beautiful <br></br>
                     interfaces & experiences.
