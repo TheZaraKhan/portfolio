@@ -8,9 +8,10 @@ import Zoom from "react-reveal/Zoom";
 export default function Experties() {
   return (
     <section id="skills" className="text-gray-700  ">
-      <div className="w-2/5 mx-auto text-center">
+      <div className="  text-center">
         <Fade top duration={1000}>
-          <h1 className="text-3xl font-medium title-font mb-4 ">
+          <h1 className="text-3xl md:-mt-0 -mt-20 font-medium title-font mb-4 text-center ">
+            {" "}
             Things that I enjoy to do.
           </h1>
         </Fade>

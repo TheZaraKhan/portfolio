@@ -16,6 +16,11 @@
 
 .frame {
   overflow: hidden;
+
+  display: flex;
+  height: 0;
+  padding-bottom: 100%;
+  width: 100%;
 }
 
 .inner-img {

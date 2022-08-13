@@ -18,13 +18,16 @@ export default function About() {
         <div className="  flex  flex-wrap  w-full px-4 md:px-0 md:w-5/6 sm:w-2/3 items-center  md:mt-24 mt-16 mx-auto  ">
           <Fade left cascade duration={900}>
             {" "}
-            <div className="md:flex-1   flex-initial relative  w-full  mb-20">
-              <div className="z-20  relative overflow-hidden frame w-2/3 mx-auto border-8 border-white  shadow-lg hover:shadow-xl  transition ease-in-out duration-700 rounded-full">
-                <img
-                  className=" inner-img  "
-                  alt="hero"
-                  src="./Images/personal/zara-khan.png"
-                />
+            <div className="md:flex-1 flex items-center  flex-initial relative  w-full  mb-20">
+              <div className="z-20  relative overflow-hidden w-2/3 mx-auto border-8 border-white  shadow-lg hover:shadow-xl  transition ease-in-out duration-700 rounded-full">
+                <div className="frame">
+                  {" "}
+                  <img
+                    className=" inner-img  w-full h-full absolute object-cover"
+                    alt="hero"
+                    src="./Images/personal/zara-khan.png"
+                  />
+                </div>
               </div>
               <div className="absolute w-full top-0 z-10 mx-auto">
                 <img
