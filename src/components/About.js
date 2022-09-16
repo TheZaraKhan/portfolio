@@ -25,7 +25,7 @@ export default function About() {
                   <img
                     className=" inner-img  w-full h-full absolute object-cover"
                     alt="hero"
-                    src="./Images/personal/zara-khan.png"
+                    src="./Images/personal/zara.png"
                   />
                 </div>
               </div>
