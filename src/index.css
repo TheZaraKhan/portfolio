@@ -150,7 +150,7 @@ input:-webkit-autofill:active {
 }
 
 .hover-fill:hover svg {
-  @apply fill-red-400 transform scale-110;
+  @apply  fill-red-400 transform scale-110;
 }
 
 .hover-fill:hover a {

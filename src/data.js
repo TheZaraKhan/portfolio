@@ -212,7 +212,7 @@ export const experience = [
   {
     company: "Advanlogix Solutions",
     role: "Front End Web Developer",
-    duration: "Dec 2020 - Present",
+    duration: "Sep 2020 - Present",
     link: "https://www.linkedin.com/company/advanlogix",
     key: "1",
     tasks: [
