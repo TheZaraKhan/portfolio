@@ -31,7 +31,7 @@ export default function Hero() {
                     href="#contact"
                     className="inline-flex py-2 md:px-8 px-4 focus:outline-none text-lg rounded-full border-2 border-red-400 bg-red-400 hover:border-red-450 hover:bg-red-450 text-white transition ease-in-out duration-500"
                   >
-                    Contact
+                    Hire Me
                   </a>
                   <a
                     href="#projects"
