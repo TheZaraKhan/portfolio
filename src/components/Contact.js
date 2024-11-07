@@ -49,9 +49,9 @@ export default function Contact() {
                     Let's Talk
                   </h2>
                   <p className="leading-relaxed text-gray-700 mb-5">
-                    Whether you have a question or want to hire me, My inbox is
+                    Whether you have a question or want to discuss a Project, My inbox is
                     always open.
-                    {/* Have a project in mind? Contact . */}
+                    {/* Have a project in mind? Contact. */}
                   </p>
                   <div className="relative mb-4">
                     <label
